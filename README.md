@@ -44,6 +44,10 @@ store — covering front-end, e-commerce flow, and production infrastructure.
 - **GitHub Actions** CI/CD pipeline — auto-deploys `wp-content` to the
   production server via FTP on push to `main`
 
+**Read the process, not just the checklist:**
+- [DNS migration to Cloudflare](docs/dns-migration-cloudflare.md) — zero-downtime, zero email disruption
+- [Security hardening](docs/security-hardening.md) — the full approach and why
+
 ---
 
 ## Tech stack
@@ -51,13 +55,6 @@ store — covering front-end, e-commerce flow, and production infrastructure.
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
 ![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=flat&logo=woocommerce&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat&logo=razorpay&logoColor=white)
-
----
-
-## Repo structure
 > Note: WordPress core files are intentionally excluded — this repo tracks
 > the custom code (`wp-content`) rather than the full CMS install.
 
